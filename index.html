@@ -11,10 +11,12 @@
 
 		<!-- CSS here -->
         <link rel="stylesheet" href="./assets/plugins/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css" />
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css" />
-        <link rel="stylesheet" href="./assets/plugins/magnific-popup.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/owl.carousel.css" />
+         <link rel="stylesheet" href="./assets/css/owl.theme.min.css" />
         <link rel="stylesheet" href="./assets/plugins/fontawesome-all.min.css">
+        <link rel="stylesheet" href="./assets/plugins/slick/slick.css">
+        <link rel="stylesheet" href="./assets/plugins/slick/slick-theme.css">
+        <link href="./assets/css/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body>
@@ -57,8 +59,8 @@
                     <div class="col-lg-8 pb-60 pt-60">
                         <h1 class="mb-30">Everything You Need To Do Better Work</h1>
                         <p class="mb-40">Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard.</p>
-                        <button class="btn mr-sm-4 mr-0">Get Started</button>
-                        <button class="btn btn-transparent">Watch Trailer</button>
+                        <button class="btn mr-sm-4 mr-0 btn-mb-3">Get Started</button>
+                        <button class="btn">Watch Trailer</button>
                     </div>
                 </div>
             </div>
@@ -134,10 +136,10 @@
             </div>
           </div>
           <div class="row align-items-center">
-            <div class="col-lg-6 choose-us-img mb-3">
+            <div class="col-lg-6 choose-us-img mb-3" data-aos="fade-right" data-aos-duration="1500">
               <img src="./assets/images/Macbook.png" alt="" class="img-fluid">
             </div>
-            <div class="col-lg-6 mb-3">
+            <div class="col-lg-6 mb-3" data-aos="fade-left" data-aos-duration="1500">
               <div class="row">
                 <div class="col-lg-10">
                   <div class="row choose-us-item mb-25">
@@ -185,7 +187,7 @@
       <section class="mt-120 pb-50" id="features">
         <div class="container">
           <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 mb-3" data-aos="fade-down-right" data-aos-duration="1500">
               <h4 class="mb-30">How We Help Our Clients Measure Social</h4>
               <p class="mb-30">
                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.
@@ -199,7 +201,7 @@
                 <p>It is a long established fact that a reader will be distracted by the readable.</p>
               </div>
             </div>
-            <div class="col-lg-6 text-right">
+            <div class="col-lg-6 mb-3 order-first order-lg-2 text-right" data-aos="fade-up-left" data-aos-duration="1500">
               <img src="./assets/images/how-we-help.png" alt="" class="img-fluid">
             </div>
           </div>
@@ -208,13 +210,13 @@
       <!-- how we help end -->
 
       <!-- making new trend start -->
-      <section class="mt-120 pb-65">
+      <section class="making-new-trend mt-120 pb-65">
         <div class="container-fluid">
           <div class="row align-items-center">
-            <div class="col-lg-6 mb-3 text-center">
+            <div class="col-lg-6 mb-3 text-center" data-aos="zoom-in-up" data-aos-duration="1500">
               <img src="./assets/images/making-new-trend.png" alt="" class="img-fluid">
             </div>
-            <div class="col-lg-5 mb-3">
+            <div class="col-lg-5 mb-3" data-aos="zoom-in-down" data-aos-duration="1500">
               <h4 class="mb-25">Making A New Trend In Poster Printing</h4>
               <p>
                 Chances are unless you are very lucky you will go thru many different relationships before you find your special someone. Finding your sole mate is like gambling. <br><br>
@@ -385,9 +387,10 @@
              <p>When it comes to choosing the right web hosting provider, we know how easy it is to get overwhelmed.</p>
             </div>
           </div>
+
           <div class="row">
             <div class="col-lg-4 mb-3">
-              <div class="pricing-col h-100">
+              <div class="pricing-col transparent-bg h-100">
                 <div class="heading pt-35 pb-35 px-4">
                   <h5 class="title text-uppercase mb-15">Basic</h5>
                   <h2 class="price black mb-15">$65.99</h2>
@@ -409,7 +412,7 @@
               </div>
             </div>
             <div class="col-lg-4 mb-3">
-              <div class="pricing-col h-100">
+              <div class="pricing-col violet-bg h-100">
                 <div class="heading pt-35 pb-35 px-4">
                   <h5 class="title text-uppercase mb-15">Standard</h5>
                   <h2 class="price black mb-15">$65.99</h2>
@@ -431,7 +434,7 @@
               </div>
             </div>
             <div class="col-lg-4 mb-3">
-              <div class="pricing-col h-100">
+              <div class="pricing-col transparent-bg h-100">
                 <div class="heading pt-35 pb-35 px-4">
                   <h5 class="title text-uppercase mb-15">Premium</h5>
                   <h2 class="price black mb-15">$65.99</h2>
@@ -458,28 +461,28 @@
       <!-- pricing end -->
 
        <!-- awarded & trusted start -->
-       <section class="mt-120 pb-50 trusted-by">
+       <section class="mt-120 pb-80 trusted-by">
         <div class="container">
           <div class="row justify-content-center mb-45 text-center">
             <div class="col-lg-7">
               <h3 class="mb-10">Awarded & Trusted By</h3>
             </div>
           </div>
-          <div class="row text-center">
-            <div class="col-lg-3 col-sm-6 p-0 text-lg-left">
-              <img src="assets/images/trusted-by-icon/code-lab.png" alt="" class="img-fluid my-3">
+          <div class="responsive">
+            <div>
+              <img src="./assets/images/trusted-by-icon/circle.png" alt="">
             </div>
-            <div class="col-lg-2 col-sm-6 p-0">
-              <img src="assets/images/trusted-by-icon/nirastate.png" alt="" class="img-fluid my-3">
+            <div>
+              <img src="./assets/images/trusted-by-icon/code-lab.png" alt="">
             </div>
-            <div class="col-lg-3 col-sm-6 p-0">
-              <img src="assets/images/trusted-by-icon/liva.png" alt="" class="img-fluid my-3">
+            <div>
+              <img src="./assets/images/trusted-by-icon/goldline.png" alt="">
             </div>
-            <div class="col-lg-2 col-sm-6 p-0">
-              <img src="assets/images/trusted-by-icon/goldline.png" alt="" class="img-fluid my-3">
+            <div>
+              <img src="./assets/images/trusted-by-icon/liva.png" alt="">
             </div>
-            <div class="col-lg-2 col-sm-6 p-0 text-lg-right">
-              <img src="assets/images/trusted-by-icon/circle.png" alt="" class="img-fluid my-3">
+            <div>
+              <img src="./assets/images/trusted-by-icon/nirastate.png" alt="">
             </div>
           </div>
         </div>
@@ -561,12 +564,15 @@
         <script src="./assets/js/vendor/jquery-3.2.1.min.js"></script>
         <script src="./assets/js/popper.min.js"></script>
         <script src="./assets/js/bootstrap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-        <script src="./assets/js/isotope.pkgd.min.js"></script>
-        <script src="./assets/js/ajax-form.js"></script>
-        <script src="./assets/js/imagesloaded.pkgd.min.js"></script>
-        <script src="./assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="./assets/js/owl.carousel.min.js"></script>
         <script src="./assets/js/plugins.js"></script>
+        <script src="./assets/plugins/slick/slick.min.js"></script>
+
+        <script src="./assets/js/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+
         <script src="./assets/js/all.js"></script>
     </body>
 </html>
